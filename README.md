@@ -1,3 +1,17 @@
+Copyright 2013 Google Inc. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
 # Chrome packaged apps samples
 
 This is the Google Chrome official repository for Chrome packaged apps samples. We have tried to demonstrate most of the [Chrome packaged apps APIs](http://developer.chrome.com/apps/about_apps.html).
@@ -34,6 +48,9 @@ Identity/OAuth:
 
 ## Storage related:
 
+Syncable filesystem (useful for media and files that need to be synced among different devices):
+* [syncfs-editor](https://github.com/GoogleChrome/chrome-app-samples/tree/master/syncfs-editor)
+
 Syncable storage (useful for saving settings and application state):
 * [diff](https://github.com/GoogleChrome/chrome-app-samples/tree/master/diff)
 * [hello-world-sync](https://github.com/GoogleChrome/chrome-app-samples/tree/master/hello-world-sync)
@@ -55,6 +72,7 @@ Media Gallery API:
 Window
 * [restarted-demo](https://github.com/GoogleChrome/chrome-app-samples/tree/master/restarted-demo)
 * [singleton](https://github.com/GoogleChrome/chrome-app-samples/tree/master/singleton)
+* [window-state](https://github.com/GoogleChrome/chrome-app-samples/tree/master/window-state)
 * [windows](https://github.com/GoogleChrome/chrome-app-samples/tree/master/windows)
 
 Context menu:
@@ -64,8 +82,8 @@ Frameless window:
 * [frameless-window](https://github.com/GoogleChrome/chrome-app-samples/tree/master/frameless-window)
 * [weather](https://github.com/GoogleChrome/chrome-app-samples/tree/master/weather)
 
-Fullscreen API:
-* [fullscreen](https://github.com/GoogleChrome/chrome-app-samples/tree/master/fullscreen)
+HTML Fullscreen API:
+* [window-state](https://github.com/GoogleChrome/chrome-app-samples/tree/master/window-state)
 
 Optional permissions:
 * [optional-permissions](https://github.com/GoogleChrome/chrome-app-samples/tree/master/optional-permissions)
@@ -110,6 +128,9 @@ Monitor system info:
 
 Sending messages to other installed apps or extensions:
 * [messaging](https://github.com/GoogleChrome/chrome-app-samples/tree/master/messaging)
+
+System tray rich notifications:
+* [rich-notifications](https://github.com/GoogleChrome/chrome-app-samples/tree/master/rich-notifications)
 
 Webintents:
 * [explicit-webintents](https://github.com/GoogleChrome/chrome-app-samples/tree/master/explicit-webintents)
